@@ -1,0 +1,17 @@
+/* styles.css
+
+/* Add the CSS animation for horizontal scrolling */
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Apply the animation to the photo gallery container */
+  .photo-gallery-container {
+    animation: scroll 20s linear infinite;
+  }
+   
